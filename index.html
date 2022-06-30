@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title> Air pollution </title>
+	<link rel="stylesheet" href="css/style.css" />
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div id="air" class="air">
+			<div class="air__search">
+				<input id='city' class="air__location" type="text" value="Kyiv">
+				<button class="air__search-btn"> Search </button>
+			</div>
+			<div class="air__clear">
+				<!-- If the #text be automatically added to the div below (air__rate Class) some functionality can be missed,
+				but there will be no problems if html file is minimized; -->
+				<div class="air__rate">Unknown</div>
+				<div class="air__more">
+					See details
+				</div>
+				<div class="air__more-open">
+					<div class="air__no2">NO<sub>2</sub>: Unknown</div>
+					<div class="air__pm10">PM<sub>10</sub>: Unknown</div>
+					<div class="air__pm10">O<sub>3</sub>: Unknown</div>
+					<div class="air__pm25">PM<sub>25</sub>: Unknown</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="module" src="js/script.js"></script>
+</body>
+
+</html>
